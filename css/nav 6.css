@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-31 09:29:40
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-08-31 18:00:14
+* @Last Modified time: 2018-09-10 18:53:24
 */
 /*顶部导航开始*/
 
@@ -59,7 +59,7 @@ nav .con .list ul .list-item1{
 }
 nav .con .list ul .item{
 	height: 60px;
-	width: 70px;
+	/* width: 70px; */
 	color: #8f8f8f;
 	border-top:2px solid #fff;
 }

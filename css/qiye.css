@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-25 20:48:33
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-10 12:09:40
+* @Last Modified time: 2018-09-10 19:26:49
 */
 /*顶部导航开始*/
 
@@ -60,7 +60,7 @@ nav .con .list ul .list-item1{
 }
 nav .con .list ul .item{
 	height: 60px;
-	width: 70px;
+	/* width: 70px; */
 	color: #8f8f8f;
 	border-top:2px solid #fff;
 }
@@ -70,7 +70,11 @@ nav .con .list ul li:hover a,span{
 nav .con .list ul li:hover{
 	border-top:2px solid #000;
 }
-
+nav .con .list ul .change{
+	height: 60px;
+	width: 71px;
+	border-top: 2px solid #000;
+}
 nav .button{
 	height: 66px;
 	width: 43px;
