@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-30 15:26:16
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-08-30 20:14:17
+* @Last Modified time: 2018-09-10 15:29:45
 */
 /*顶部导航开始*/
 
@@ -133,6 +133,7 @@ nav .button .line{
 	display: block;
     padding: 5px 10px;
     font-size: 16px;
+    cursor: pointer;
 }
 .content .container .search{
 	display: flex;
@@ -161,6 +162,10 @@ input::-webkit-input-placeholder{
 
 .content .container .box ul{
 	margin: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* display: none; */
 }
 .content .container .box ul li {
 	margin-bottom: 30px;
@@ -207,7 +212,7 @@ input::-webkit-input-placeholder{
 .content .container .box .pager{
 	display: flex;
 	justify-content: center;
-	margin:0;q
+	margin:0;
 	opacity: 0;
 }
 .content .container .box .one{
@@ -229,7 +234,11 @@ input::-webkit-input-placeholder{
 	font-size: 22px;
 	border: 1px solid #fff;
 }
-
+.content .container .box .nav3box{
+	height: 817px;
+	margin-bottom: 30px;
+	position: relative;
+}
 
 /* 内容结束 */
 
@@ -286,6 +295,9 @@ footer .bottom .con .title .word{
 	.banner .inner .container .title h3{
 		font-size: 42px;
 	}
+	.content .container .box .nav3box{	
+		height: 480px;
+	} 
 	
 
 

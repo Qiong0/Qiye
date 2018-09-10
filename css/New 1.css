@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-29 22:16:16
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-08-30 10:20:01
+* @Last Modified time: 2018-09-10 15:23:33
 */
 /*顶部导航开始*/
 
@@ -190,7 +190,7 @@ main .container .recommend .inner input{
 	height: 36px;
 	width: 100%;
 	border-radius: 18px;
-	border-color: #e4eaec;
+	border:1px solid #e4eaec;
 	outline: none;
 	padding: 6px 50px 6px 13px;
 	position: relative;

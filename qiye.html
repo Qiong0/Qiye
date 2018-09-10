@@ -10,6 +10,7 @@
 	<script src="js/swiper-4.3.5.min (1).js"></script>
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/qiye.css">
+	<script src="js/qiye.js"></script>
 </head>
 <body>
 <!-- 顶部导航开始 -->
@@ -22,9 +23,9 @@
 				<div class="list">
 					<ul>
 						<li class="list-item"><a href="" class="shouye">网站首页</a></li>
-						<li class="item"><a href="nav 2.html">集团概况</a><span>&or;</span></li>
-						<li class="item"><a href="nav 3.html">项目案例</a><span>&or;</span></li>
-						<li class="item"><a href="nav 4.html">服务范围</a><span>&or;</span></li>
+						<li class="list-item1"><a href="nav 2.html">集团概况</a><!-- <span>&or;</span> --></li>
+						<li class="list-item1"><a href="nav 3.html">项目案例</a><!-- <span>&or;</span> --></li>
+						<li class="list-item1"><a href="nav 4.html">服务范围</a><!-- <span>&or;</span> --></li>
 						<li class="list-item1"><a href="nav 5.html">资讯中心</a></li>
 						<li class="list-item1"><a href="nav 6.html">招纳贤士</a></li>
 						<li class="list-item1"><a href="nav 7.html">联系我们</a></li>
@@ -79,15 +80,16 @@
 
 <!-- 服务范围开始 -->
 	<section class="server">
-		<!-- <div class="container"> -->
+		<div class="container">
 			<div class="head">
 				<h2 class="title">服务范围</h2>
 				<p class="subtitle">——service——</p>
 				<p class="desc">描述</p>
 			</div>
 			<ul class="row" >
-				<div class="left">
-				<img src="img/project leftbtn1.png" alt=""></div>
+				<!-- <div class="left">
+					<img src="img/project leftbtn1.png" alt="">
+				</div> -->
 				<li class="col-xs-12 col-sm-6 col-md-3">
 					<a href="server list1.html">
 						<img src="img/server1.png" alt="">
@@ -127,10 +129,11 @@
 						<p>网络资源，是利用计算机系统通过通信设备传播和网络软件管理的信息资源。</p>
 					</div>
 					</a>
-				</li>
-				<div class="right">
+				</l   i>
+
+			<!-- 	<div class="right">
 					<img src="img/project rightbtn1.png" alt="">
-				</div>
+				</div> -->
 			</ul>	
 		</div>	
 	</section>
@@ -139,7 +142,7 @@
 
 <!-- 项目案例开始 -->
 <section class="project">
-	<!-- <div class="container"> -->
+	<div class="container">
 		<div class="con">
 			<div class="head">
 				<h2 class="title">项目案例</h2>
@@ -165,6 +168,7 @@
 					</li>
 				</ul>
 			</div>
+			<div class="projectbox">
 			<div class="list">
 				<ul class="row">
 					<li class="col-xs-12 col-sm-6 col-md-4">
@@ -201,6 +205,7 @@
 						<h4><a href="">室内建筑</a></h4>
 					</li>
 				</ul>
+			</div>
 			</div>
 			
 			<div class="btn">
@@ -413,6 +418,14 @@
 	</div>
 </footer>
 <!-- 底部结束 -->
+
+<!-- 返回 -->
+<div class="back">
+	
+</div>
+
+
+
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal',

@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-25 20:48:33
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-06 22:31:20
+* @Last Modified time: 2018-09-10 12:09:40
 */
 /*顶部导航开始*/
 
@@ -12,7 +12,7 @@ nav{
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 99;
 	background: #fff;
 	box-shadow: 0 0 5px 2px rgba(0,0,0,0.1);
 }
@@ -90,7 +90,7 @@ nav .button .line{
 /*banner开始*/
 .swiper-container {
     width: 100%;
-    height: 495px;
+    /* height: 495px; */
 } 
 .swiper-container img{
 	width: 100%;
@@ -194,6 +194,10 @@ nav .button .line{
 	color: #999999;
 	text-align: center;
 }
+
+
+.server .row{
+}
 .server ul .left{
 	position: absolute;
 	top:48%;
@@ -211,7 +215,7 @@ nav .button .line{
 }
 .server ul .right{
 	position: absolute;
-	top:48%;
+	top:50%; 
 	right: 40px;
 	height: 41px;
 	width: 30px;
@@ -297,7 +301,7 @@ nav .button .line{
 	height: 91px;
 	width: 100%;
 	overflow: hidden;
-	position: relative;;
+	position: relative;
 }
 .project .among ul{
 	height: 31px;
@@ -334,6 +338,7 @@ nav .button .line{
 .project .con .list ul li img{
 	height: 100%;
 	width: 100%;
+	/* width: 1300px; */
 }
 .project .con .list ul li h4{
 	margin:0;
@@ -425,6 +430,21 @@ nav .button .line{
 .project .btn .rightbtn:hover a{
 	color: #fff;
 }
+.project .among .list{
+	background: red;
+	width: 630px;
+}
+/* .project .projectbox{
+	background: red;
+	width:1204px;
+	height:  401px;
+} */
+/* .project .list{
+	background: green;
+	width: 1389px;
+}
+ */
+
 
 /*项目案例结束*/
 
@@ -733,6 +753,18 @@ footer .bottom .con .title .word{
 
 /*底部结束*/
 
+/* 返回 */
+.back{
+	height: 36px;
+	width: 36px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 10;
+	background: #333;
+	border: 1px solid #333;
+	color: #fff;
+}
 
 
 
