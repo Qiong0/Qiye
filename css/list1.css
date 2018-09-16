@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-28 19:00:17
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-10 19:29:46
+* @Last Modified time: 2018-09-12 10:37:07
 */
 /*顶部导航开始*/
 
@@ -157,12 +157,16 @@ nav .button .line{
 	width: 100%;
 	height: 100%;
 } */
-.content .container .box .text{
-	width: calc(100% - 64);
+.content .container .box .listbox .text{
+	width: calc(100% - 64px);
 	background: #fff;
 	margin-right: 32px;
 	margin-left: 32px;
 	padding: 15px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
 }
 .content .container .box ul{
 	border-bottom: 1px solid #e4eaec;
@@ -225,7 +229,10 @@ nav .button .line{
 	border: 1px solid #fff;
 }
 
-
+.listbox{
+	/* background: green; */
+	height: 1950px;
+}
 
 
 
@@ -337,6 +344,10 @@ footer .bottom .con .title .word{
 	.content .container .box2 ul li .word{
 		text-align: center;
 	}
+	.listbox{
+		height: 2010px;
+	}
+
 
 }
 @media screen and (min-width: 992px){
@@ -358,7 +369,15 @@ footer .bottom .con .title .word{
 		float: left;
 		width: 25%;
 	}
+	.listbox{
+		height: 2010px;
+		margin-bottom: 30px;
+	}
+
 }
 @media screen and (min-width: 1200px){
-
+	.listbox{
+		height: 2230px;
+		margin-bottom: 30px;
+	}
 }

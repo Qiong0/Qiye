@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-29 22:16:16
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-16 11:49:06
+* @Last Modified time: 2018-09-16 11:54:04
 */
 /*顶部导航开始*/
 
@@ -276,6 +276,7 @@ footer .bottom .con .title .word{
 } 
 /* 底部结束 */
 
+
 /* 返回 */
 .back{
 	height: 36px;
@@ -294,8 +295,6 @@ footer .bottom .con .title .word{
 	line-height: 30px;
 	font-size: 22px;
 }
-
-
 
 @media screen and (min-width: 768px){
 	nav .con .list{

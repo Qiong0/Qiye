@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-08-25 20:48:33
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-10 19:26:49
+* @Last Modified time: 2018-09-16 11:42:33
 */
 /*顶部导航开始*/
 
@@ -21,6 +21,7 @@ nav .con{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 }
 nav .con .pic{
 	height: 50px;
@@ -87,7 +88,39 @@ nav .button .line{
 	background-image: url(../img/nav2.png);
 	background-size: cover;
 	background-position: center;
+	cursor: pointer;
 }
+nav .button .line .son{
+	width: 100%;
+	height: 375px;
+	background: #fff;
+	position: absolute;
+	top:60px;
+	left: 0;
+	padding: 20px;
+	display: none;
+	border-radius: 4px;
+}
+nav .button .line .son ul li{
+	padding: 10px 15px;
+	margin-top: 3px;
+	/* border-top: 2px solid #000; */
+}
+nav .button .line .son ul li a{
+	text-decoration: none;
+	color: #999;
+	font-size: 16px;
+}
+nav .button .line .son ul li:hover a{
+	color: #000;
+}
+
+
+
+
+
+
+
 
 /*顶部导航结束*/
 
@@ -181,7 +214,7 @@ nav .button .line{
 .server{
 	padding: 70px;
 	background: #F5F5F5;
-	position: relative;;
+	position: relative;
 }
 .server .head .title{
 	margin:0;
@@ -245,6 +278,9 @@ nav .button .line{
 .server ul li{
 	float: left;
 }
+.server ul li:hover h4{
+	border-bottom: 1px solid #000;
+}
 .server ul li a{
 	text-decoration: none;
 }
@@ -285,6 +321,13 @@ nav .button .line{
 .project{
 	padding: 70px;
 }
+ 
+/* .project .con{
+	height: 100%;
+	width: 1900px;
+	background: red;
+
+} */
 .project .con .head .title{
 	margin-top: 0; 
 	margin-bottom: 0; 
@@ -349,8 +392,11 @@ nav .button .line{
 	padding-top: 20px;
 	padding-bottom:30px;
 	padding-right:20px;
-	border-bottom:1px solid #000;
+	border-bottom:1px solid #efefef;
 	font-size: 400;
+}
+.project .con .list ul li:hover h4{
+	border-bottom:1px solid #000;
 }
 .project .list ul .list-one,.list-two{
 	display: none;
@@ -641,7 +687,10 @@ nav .button .line{
 	line-height: 30px;
 	text-align: left;
 }
-.News .con ul li .right h4{
+.News .con ul li .right:hover h4{
+	border-bottom: 1px solid #000;
+}
+.News .con ul li  h4{
 	margin:0;
 	border-bottom: 1px solid #efefef;
 	font-size: 16px;
@@ -768,8 +817,13 @@ footer .bottom .con .title .word{
 	background: #333;
 	border: 1px solid #333;
 	color: #fff;
+	cursor: pointer;
 }
-
+.back .top{
+	text-align: center;
+	line-height: 30px;
+	font-size: 22px;
+}
 
 
 
